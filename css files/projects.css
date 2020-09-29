@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+/* general styling for page */
+html{
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #fbfcf5;
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  margin: 6% 0% 0% 0%;
+}
+
+/* styling particle.js element */
+#particles-js{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+}
+
+/* styling right portion of page, where projects will be listed */
+.border{
+  width: 78%;
+  margin: 0% 2% 2% 2%;
+  border-style: solid;
+  border-width: thin;
+  border-color: #CC00FF;
+  float: right;
+  z-index: 20;
+  background-color: #fbfcf5;
+}
+
+/* styline left portion of page where navigation bar will be. */
+#nav-bar{
+  width: 16%;
+  margin-left: 2%;
+  float:left;
+  border: solid #CC00FF thin;
+  position: fixed;
+  z-index: 20;
+  background-color: #fbfcf5;
+}
+
+.nav-item{
+  line-height: 1.6;
+}
+
+/*Styling Header*/
+#header{
+  background-color: #424240;
+  color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  border-bottom: 2px solid #CC00FF;
+}
+
+#image{
+  width: 54%;
+  height: 54%;
+  padding-top: 4%;
+}
+
+#title{
+  float: left;
+  font-size: 120%;
+  padding-left: 15px;
+}
+
+#menu{
+  list-style: none;
+  text-align: center;
+}
+
+#menu>li{
+  display: inline-block;
+  float: right;
+  font-size: 120%;
+  padding-right: 15px;
+  padding-top: 5.5px;
+
+}
+
+li>a:link{
+  text-decoration: none;
+  color: white;
+}
+
+li>a:visited{
+  color: white;
+}
+
+li>a:hover{
+  color:yellow;
+}
+
+li>a:active{
+  color:#1bfaa1;
+}
+
+/* Styling project text */
+.first{
+  text-indent: 6%;
+}
+.paragraph{
+  font-size: 120%;
+  text-align: justify;
+  padding: 0% 5% 1.5% 5%;
+  line-height: 1.8;
+}
+
+
+.p-item{
+  margin-left: 2.2%;
+}
+
+.subtitle{
+  text-align: center;
+  padding-bottom: 2%;
+  font-size: 135%;
+}
+
+#project-title{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 300%;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.p-title{
+  font-size: 200%;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  margin-bottom: 3%;
+}
+
+/* Styling line in between each project */
+hr{
+  margin-top: 3%;
+  width: 75%;
+}
+
+/* Styling links in body of page */
+.webpages{
+  list-style: none;
+}
+
+a.body-link:link{
+  text-decoration: none;
+  color:black;
+}
+
+a.body-link:visited{
+  color: black;
+}
+
+a.body-link:hover{
+  color:	#EE82EE;
+}
+
+a.body-link:active{
+  color:#871F78;
+}
+
+li.purple-bullets::before {
+
+  content: "•";
+  padding-right: 8px;
+  color: #b800e6;
+}
+
+/* Styling video */
+.voice-container{
+  width: 500px;
+  margin: 0 auto;
+}
+
+#voice-video{
+  border: black solid thin;
+
+}
+
+/* Styling scrollbar */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #CC00FF;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #b800e6;
+}
+
+/*Styling the footer*/
+#footer{
+  clear: both;
+  background-color: #424240;
+  color:white;
+  text-align: right;
+  padding: .25%;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+
+}
+
+#footertext{
+  padding-right: 10px;
+}
+
+/* Responsive layout - make it look good on mobile */
+@media screen and (max-width: 768px) {
+  /* Body */
+  #body{
+    width: 92%;
+    color: black;
+    margin: 4% 4% 0% 4%;
+  }
+  #project-title{
+    margin-top: 15%;
+  }
+  #nav-bar{
+    width: 92%;
+    margin: 0% 4% 4% 4%;
+    position: static;
+  }
+  .border{
+    width: 92%;
+    margin: 0% 4% 4% 4%;
+  }
+
+}

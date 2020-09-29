@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+
+html{
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #fbfcf5;
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  margin: 6% 0% 0% 0%;
+
+}
+
+/* styling particle.js element */
+#particles-js{
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -100;
+}
+
+#body{
+  width: 85%;
+  color: black;
+  margin: 0% 7.5% 0% 7.5%;
+}
+
+/*Styling Header*/
+#header{
+  background-color: #424240;
+  color: white;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width:100%;
+  border-bottom: 2px solid  #00ffef;
+  z-index: 20;
+}
+
+#image{
+  width: 54%;
+  height: 54%;
+  padding-top: 4%;
+}
+
+#title{
+  float: left;
+  font-size: 120%;
+  padding-left: 15px;
+}
+
+#menu{
+  list-style: none;
+  text-align: center;
+
+}
+
+#menu>li{
+  display: inline-block;
+  float: right;
+  font-size: 120%;
+  padding-right: 15px;
+  padding-top: 5.5px;
+
+}
+
+li>a:link{
+  text-decoration: none;
+  color: white;
+}
+
+li>a:visited{
+  color: white;
+}
+
+li>a:hover{
+  color:yellow;
+}
+
+li>a:active{
+  color:#1bfaa1;
+}
+
+/* Styling body */
+.subtitle{
+  text-align: center;
+  padding-bottom: 2%;
+  font-size: 135%;
+}
+
+.one{
+  margin-top: 3%;
+  padding-bottom: .8%;
+}
+
+#about-title{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 300%;
+  text-align: center;
+  padding-top: 4%;
+
+}
+
+.p-title{
+  font-size: 215%;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+
+}
+
+.border{
+  border-style: solid;
+  border-width: thin;
+  margin-bottom: 4%;
+  border-color: #00ccbf;
+  background-color: #fbfcf5;
+  z-index: 10;
+}
+
+#list{
+  list-style: none;
+  text-align: center;
+
+}
+
+#list>li{
+  display: inline-block;
+  padding-right: 11.2%;
+  padding-top: 2%;
+
+}
+
+.social-icon{
+  width:200%;
+  height: 200%;
+
+}
+
+#leaf{
+  width: 1.75%;
+  height:2%;
+}
+
+hr{
+  margin-top: 3%;
+  width: 75%;
+}
+
+.map-container{
+  width: 500px;
+  margin: 0 auto;
+  margin-bottom: 2%;
+}
+#map{
+  border: solid;
+  border-color: #00ccbf;
+}
+/* NOTE: scrollbar */
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #00ffef;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #00ccbf;
+}
+
+
+/*Styling the footer*/
+#footer{
+  clear: both;
+  background-color: #424240;
+  color:white;
+  text-align: right;
+  padding: .25%;
+  position: relative;
+  width: 100%;
+  bottom: 0;
+
+}
+
+#footertext{
+  padding-right: 10px;
+}
+
+/* Responsive layout - make it look good on mobile */
+@media screen and (max-width: 768px) {
+  /* Body */
+  #body{
+    width: 92%;
+    color: black;
+    margin: 0% 4% 0% 4%;
+  }
+  #about-title{
+    padding-top: 15%;
+  }
+  .social-icon{
+    width:150%;
+    height: 150%;
+
+  }
+
+}
