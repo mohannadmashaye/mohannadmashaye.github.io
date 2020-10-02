@@ -224,10 +224,7 @@ li>a:active{
   }
   .pic{
     display: none;
-
   }
-
-
   .section{
     padding-left: 2%;
     padding-right: 2%;
@@ -237,6 +234,9 @@ li>a:active{
   }
   .paragraph{
     font-size: 115%;
+  }
+  #picture{
+    display: none;
   }
 
 }
