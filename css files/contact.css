@@ -218,3 +218,44 @@ hr{
   }
 
 }
+
+@media screen and (max-width: 640px) {
+
+  li{
+    font-size: 85%;
+    padding-top: 1px;
+  }
+
+  #about-title{
+    margin-top: 12%;
+    font-size: 240%;
+  }
+
+  #image{
+    width: 110%;
+    height: 110%;
+    padding-top: 8%;
+  }
+
+  .subtitle{
+    font-size: 110%;
+  }
+
+  .socials{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .p-title{
+    font-size: 200%;
+  }
+  .social-icon{
+    width:130%;
+    height: 130%;
+  }
+
+  .map-container{
+    width: 250px;
+    margin: 0 auto;
+    margin-bottom: 2%;
+  }
+}
