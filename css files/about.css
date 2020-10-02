@@ -209,7 +209,7 @@ li>a:active{
   }
 
   #about-title{
-    margin-top: 21%;
+    padding-top: 10%;
     font-size: 240%;
   }
 
@@ -217,6 +217,18 @@ li>a:active{
     width: 110%;
     height: 110%;
     padding-top: 8%;
+  }
+
+  .subtitle{
+    font-size: 120%;
+  }
+  .pic{
+    width: 101px;
+    height: 80px;
+  }
+  .section{
+    padding-left: 2%;
+    padding-right: 2%;
   }
 
 
