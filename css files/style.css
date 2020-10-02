@@ -234,7 +234,8 @@ li>a:active{
 @media screen and (max-width: 640px) {
 
   #maintitle{
-    margin-top: 14%;
+    margin-top: 20%;
+    font-size: 280%;
   }
 
   .box.one, .box.two{
@@ -252,8 +253,8 @@ li>a:active{
     margin: 0% 20% 0% 30%;
   }
   #image{
-    width: 65%;
-    height: 65%;
+    width: 90%;
+    height: 90%;
     padding-top: 4%;
 
   }
