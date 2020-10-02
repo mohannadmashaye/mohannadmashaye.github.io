@@ -235,12 +235,12 @@ li>a:active{
 
   li{
     font-size: 85%;
-    padding-top: 3px;
+    padding-top: 1px;
   }
 
   #maintitle{
     margin-top: 25%;
-    font-size: 250%;
+    font-size: 240%;
   }
 
   .box.one, .box.two{
@@ -251,7 +251,7 @@ li>a:active{
     clear: both;
     width: 75%;
     margin: 0% 12.5% 0% 12.5%;
-    font-size: 120%;
+    font-size: 115%;
 
   }
   #pic{
@@ -262,7 +262,10 @@ li>a:active{
     width: 110%;
     height: 110%;
     padding-top: 8%;
-
+  }
+  .picposition{
+    width: 60%;
+    height:60%;
   }
 
 
