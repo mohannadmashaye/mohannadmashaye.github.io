@@ -221,7 +221,7 @@ hr{
 
 @media screen and (max-width: 640px) {
 
-  li{
+  #menu>li{
     font-size: 85%;
     padding-top: 1px;
   }
@@ -254,7 +254,7 @@ hr{
   }
 
   .map-container{
-    width: 250px;
+    width: 50%;
     margin: 0 auto;
     margin-bottom: 2%;
   }
