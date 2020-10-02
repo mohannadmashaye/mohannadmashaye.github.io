@@ -250,6 +250,7 @@ li>a:active{
     clear: both;
     width: 75%;
     margin: 0% 12.5% 0% 12.5%;
+    font-size: 115%;
 
   }
   #pic{
@@ -259,7 +260,7 @@ li>a:active{
   #image{
     width: 110%;
     height: 110%;
-    padding-top: 4%;
+    padding-top: 6%;
 
   }
 
