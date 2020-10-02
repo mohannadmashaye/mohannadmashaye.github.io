@@ -234,7 +234,7 @@ li>a:active{
 @media screen and (max-width: 640px) {
 
   li{
-    font-size: 75%;
+    font-size: 85%;
   }
 
   #maintitle{
@@ -257,8 +257,8 @@ li>a:active{
     margin: 0% 20% 0% 30%;
   }
   #image{
-    width: 100%;
-    height: 100%;
+    width: 110%;
+    height: 110%;
     padding-top: 4%;
 
   }
