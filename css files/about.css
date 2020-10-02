@@ -223,12 +223,12 @@ li>a:active{
     font-size: 110%;
   }
   .pic{
-    width: 60px;
-    height: 60px;
+    width:60;
+    height: 60;
 
   }
 
-  
+
   .section{
     padding-left: 2%;
     padding-right: 2%;
