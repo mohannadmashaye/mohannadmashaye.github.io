@@ -200,3 +200,25 @@ li>a:active{
   }
 
 }
+
+@media screen and (max-width: 640px) {
+
+  li{
+    font-size: 85%;
+    padding-top: 1px;
+  }
+
+  #about-title{
+    margin-top: 21%;
+    font-size: 240%;
+  }
+
+  #image{
+    width: 110%;
+    height: 110%;
+    padding-top: 8%;
+  }
+
+
+
+}
