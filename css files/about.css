@@ -223,8 +223,12 @@ li>a:active{
     font-size: 110%;
   }
   .pic{
-    width: 25%;
-    height: 25%;
+    width: 60px;
+    height: 60px;
+
+  }
+
+  #picture{
     display: block;
   }
   .section{
