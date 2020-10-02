@@ -222,11 +222,40 @@ li>a:active{
     clear: both;
     width: 75%;
     margin: 0% 12.5% 0% 12.5%;
-    
+
   }
 
   #pic{
     width: 50%;
     margin: 0% 20% 0% 30%;
   }
+}
+
+@media screen and (max-width: 640px) {
+
+  #maintitle{
+    margin-top: 14%;
+  }
+
+  .box.one, .box.two{
+    width: 75%;
+    margin:  0% 12.5% 5% 12.5%;
+  }
+  #intro{
+    clear: both;
+    width: 75%;
+    margin: 0% 12.5% 0% 12.5%;
+
+  }
+  #pic{
+    width: 50%;
+    margin: 0% 20% 0% 30%;
+  }
+  #image{
+    width: 65%;
+    height: 65%;
+    padding-top: 4%;
+
+  }
+
 }
