@@ -235,6 +235,7 @@ li>a:active{
 
   li{
     font-size: 85%;
+    padding-top: 4px;
   }
 
   #maintitle{
