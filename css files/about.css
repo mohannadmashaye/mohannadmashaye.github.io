@@ -177,7 +177,8 @@ li>a:active{
 
 /* Responsive layout - make it look good on mobile */
 
-@media screen and (max-width: 850px) {
+
+@media screen and (min-width: 625px)  and (max-width:800px){
   /* Body */
   #body{
     width: 92%;
