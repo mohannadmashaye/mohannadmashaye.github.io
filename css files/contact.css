@@ -54,6 +54,7 @@ body{
 #image{
   width: 54%;
   height: 54%;
+  max-width: 100%;
   padding-top: 4%;
 }
 
