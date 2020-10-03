@@ -208,28 +208,6 @@ li>a:active{
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 768px) {
-
-  #maintitle{
-    margin-top: 14%;
-  }
-
-  .box.one, .box.two{
-    width: 75%;
-    margin:  0% 12.5% 5% 12.5%;
-  }
-  #intro{
-    clear: both;
-    width: 75%;
-    margin: 0% 12.5% 0% 12.5%;
-
-  }
-
-  #pic{
-    width: 50%;
-    margin: 0% 20% 0% 30%;
-  }
-}
 
 @media screen and (max-width: 640px) {
 
@@ -267,6 +245,37 @@ li>a:active{
     width: 65%;
     height:65%;
   }
+}
 
+@media screen and (max-width: 768px) {
 
+  #maintitle{
+    margin-top: 15%;
+    font-size: 300%;
+  }
+
+  .box.one, .box.two{
+    width: 80%;
+    margin:  0% 10% 5% 10%;
+  }
+  #intro{
+    clear: both;
+    width: 80%;
+    margin: 0% 10% 0% 10%;
+    font-size: 125%;
+
+  }
+  #pic{
+    width: 50%;
+    margin: 0% 20% 0% 30%;
+  }
+  #image{
+    width: 54%;
+    height: 54%;
+    padding-top: 4%;
+  }
+  li{
+    font-size: 120%;
+    padding-top: 6px;
+  }
 }
