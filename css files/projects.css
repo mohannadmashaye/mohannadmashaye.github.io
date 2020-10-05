@@ -227,7 +227,42 @@ li.purple-bullets::before {
 }
 
 /* Responsive layout - make it look good on mobile */
-@media screen and (max-width: 768px) {
+
+/* Responsive layout - make it look good on mobile */
+
+@media screen and (max-width: 634px) {
+
+  #menu>li{
+    font-size: 85%;
+    padding-top: 1px;
+  }
+
+  #project-title{
+    padding-top: 20%;
+    font-size: 240%;
+  }
+
+  #image{
+    width: 110%;
+    height: 110%;
+    padding-top: 8%;
+  }
+
+  .subtitle{
+    font-size: 90%;
+  }
+
+  .p-title{
+    font-size: 200%;
+  }
+  .paragraph{
+    font-size: 115%;
+  }
+
+}
+
+
+@media screen and (min-width:635px)  and (max-width:800px){
   /* Body */
   #body{
     width: 92%;
