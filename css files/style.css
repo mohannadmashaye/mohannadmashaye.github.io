@@ -209,7 +209,7 @@ li>a:active{
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 634px) {
 
   li{
     font-size: 85%;
@@ -247,7 +247,7 @@ li>a:active{
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width:635px)  and (max-width:800px){
 
   #maintitle{
     margin-top: 15%;
