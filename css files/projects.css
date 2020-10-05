@@ -266,6 +266,20 @@ li.purple-bullets::before {
   .paragraph{
     font-size: 115%;
   }
+  .voice-container{
+    width: inherit;
+    position: relative;
+    padding-bottom: 64%;
+    height: 0;
+    overflow: hidden;
+  }
+  #voice-video{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
 
 }
 
