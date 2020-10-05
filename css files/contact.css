@@ -201,3 +201,43 @@ hr{
 #footertext{
   padding-right: 10px;
 }
+
+/* Responsive layout - make it look good on mobile */
+@media screen and (max-width: 768px) {
+
+  #menu>li{
+    font-size: 85%;
+    padding-top: 1px;
+  }
+
+  #about-title{
+    margin-top: 12%;
+    font-size: 240%;
+  }
+
+  #image{
+    width: 110%;
+    height: 110%;
+    padding-top: 8%;
+  }
+
+  .subtitle{
+    font-size: 110%;
+  }
+
+  .socials{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .p-title{
+    font-size: 200%;
+  }
+  .social-icon{
+    width:130%;
+    height: 130%;
+  }
+  iframe, object, embed {
+      max-width: 100%;
+      position: relative;
+  }
+}
