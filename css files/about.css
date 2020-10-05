@@ -177,44 +177,6 @@ li>a:active{
 
 /* Responsive layout - make it look good on mobile */
 
-@media screen and (max-width: 634px) {
-
-  li{
-    font-size: 85%;
-    padding-top: 1px;
-  }
-
-  #about-title{
-    margin-top: 12%;
-    font-size: 240%;
-  }
-
-  #image{
-    width: 110%;
-    height: 110%;
-    padding-top: 8%;
-  }
-
-  .subtitle{
-    font-size: 110%;
-  }
-  .pic{
-    display: none;
-  }
-  .section{
-    padding-left: 2%;
-    padding-right: 2%;
-  }
-  .p-title{
-    font-size: 200%;
-  }
-  .paragraph{
-    font-size: 115%;
-  }
-  
-
-}
-
 @media screen and (min-width:635px)  and (max-width:800px){
   /* Body */
   #body{
@@ -237,7 +199,7 @@ li>a:active{
     padding: 1%;
   }
   #about-title{
-    padding-top: 15%;
+    padding-top: 12.5%;
   }
 
 }
