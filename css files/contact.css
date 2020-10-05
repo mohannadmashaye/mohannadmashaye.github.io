@@ -108,7 +108,7 @@ li>a:active{
   padding-bottom: .8%;
 }
 
-#about-title{
+#contact-title{
   font-family: 'Roboto Mono', monospace;
   font-size: 300%;
   text-align: center;
@@ -203,14 +203,45 @@ hr{
 }
 
 /* Responsive layout - make it look good on mobile */
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 634px) {
+
+  li{
+    font-size: 85%;
+    padding-top: 1px;
+  }
+
+  #contact-title{
+    padding-top: 20%;
+    font-size: 240%;
+  }
+
+  #image{
+    width: 110%;
+    height: 110%;
+    padding-top: 8%;
+  }
+
+  .subtitle{
+    font-size: 90%;
+  }
+
+  .p-title{
+    font-size: 200%;
+  }
+
+
+}
+
+
+@media screen and (min-width:635px)  and (max-width:800px) {
 
   #menu>li{
     font-size: 85%;
     padding-top: 1px;
   }
 
-  #about-title{
+  #contact-title{
     margin-top: 12%;
     font-size: 240%;
   }
@@ -225,7 +256,7 @@ hr{
     font-size: 110%;
   }
 
-  .socials{
+  .border{
     padding-left: 2%;
     padding-right: 2%;
   }
@@ -236,8 +267,5 @@ hr{
     width:130%;
     height: 130%;
   }
-  iframe, object, embed {
-      max-width: 100%;
-      position: relative;
-  }
+
 }
