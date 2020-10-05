@@ -18,6 +18,7 @@ body{
   background-color: #fbfcf5;
   position: relative;
   min-height: 100%;
+  padding-bottom: 6%;
   width: 100%;
   margin: 6% 0% 0% 0%;
 
@@ -192,9 +193,11 @@ hr{
   color:white;
   text-align: right;
   padding: .25%;
-  position: relative;
-  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
   bottom: 0;
+  height: 6%;
 
 }
 
