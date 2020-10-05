@@ -241,29 +241,3 @@ hr{
       position: relative;
   }
 }
-
-@media screen and (max-width: 1200px) {
-  /* Body */
-  #body{
-    width: 92%;
-    color: black;
-    margin: 0% 4% 0% 4%;
-  }
-  #about-title{
-    padding-top: 7.5%;
-  }
-  .social-icon{
-    width:150%;
-    height: 150%;
-  }
-  #image{
-    width: 54%;
-    height: 54%;
-    padding-top: 4%;
-  }
-  #menu>li{
-    font-size: 120%;
-    padding-top: 6px;
-  }
-
-}

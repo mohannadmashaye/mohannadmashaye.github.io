@@ -231,7 +231,9 @@ li>a:active{
     width: 90%;
     margin-right: 10%;
     margin-left: 0%;
-    display: none;
+  }
+  #pic{
+    max-width: 100%;
   }
   .writing{
     padding: 1%;
