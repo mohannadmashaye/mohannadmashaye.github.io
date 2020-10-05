@@ -185,7 +185,7 @@ li>a:active{
   }
 
   #about-title{
-    padding-top: 12%;
+    padding-top: 25%;
     font-size: 240%;
   }
 
@@ -199,6 +199,9 @@ li>a:active{
     font-size: 110%;
   }
   .pic{
+    display: none;
+  }
+  #picture{
     display: none;
   }
   .section{
