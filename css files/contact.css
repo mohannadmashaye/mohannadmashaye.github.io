@@ -227,7 +227,7 @@ hr{
   }
 
   .p-title{
-    font-size: 200%;
+    font-size: 175%;
   }
   .icon{
     width: 80%;
@@ -237,7 +237,10 @@ hr{
     width: 3%;
     height: 3%;
   }
+  #list>li{
+    padding-right: 9%;
 
+  }
 
 }
 
