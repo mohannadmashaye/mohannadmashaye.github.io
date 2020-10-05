@@ -193,11 +193,13 @@ hr{
   color:white;
   text-align: right;
   padding: .25%;
+  padding-bottom: .5;
   position: absolute;
   left: 0;
   right: 0;
   bottom: 0;
   height: 6%;
+
 
 }
 
