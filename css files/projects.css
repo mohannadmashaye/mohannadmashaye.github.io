@@ -247,14 +247,13 @@ li.purple-bullets::before {
     height: 110%;
     padding-top: 8%;
   }
-  #body{
-    width: 80%;
-    color: black;
-    margin: 4% 10% 0% 10%;
+  .border{
+    width: 90%;
+    margin: 0% 5% 0% 5%;
   }
   #nav-bar{
-    width: 80%;
-    margin: 0% 10% 4% 10%;
+    width: 90%;
+    margin: 0% 5% 4% 5%;
     position: static;
   }
   .subtitle{
