@@ -227,10 +227,10 @@ li>a:active{
   }
   #intro{
     clear: both;
-    width: 75%;
-    margin: 0% 12.5% 0% 12.5%;
+    width: 70%;
+    margin: 0% 15% 0% 15%;
     font-size: 115%;
-    text-align: left;
+    text-align: justify;
 
   }
   #pic{
