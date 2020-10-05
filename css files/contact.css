@@ -206,7 +206,7 @@ hr{
 
 @media screen and (max-width: 634px) {
 
-  li{
+  #menu>li{
     font-size: 85%;
     padding-top: 1px;
   }
@@ -229,6 +229,10 @@ hr{
   .p-title{
     font-size: 200%;
   }
+  .icon{
+    width:140%;
+    height: 140%;
+  }
 
 
 }
@@ -236,24 +240,13 @@ hr{
 
 @media screen and (min-width:635px)  and (max-width:800px) {
 
-  #menu>li{
-    font-size: 85%;
-    padding-top: 1px;
-  }
 
   #contact-title{
-    margin-top: 12%;
-    font-size: 240%;
-  }
-
-  #image{
-    width: 110%;
-    height: 110%;
-    padding-top: 8%;
+    padding-top: 12.5%;
   }
 
   .subtitle{
-    font-size: 110%;
+    font-size: 125%;
   }
 
   .border{
@@ -263,6 +256,9 @@ hr{
   .p-title{
     font-size: 200%;
   }
-
+  .icon{
+    width:140%;
+    height: 140%;
+  }
 
 }
