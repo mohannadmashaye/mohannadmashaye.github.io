@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
+/* styles for whole contact page */
 html{
   height: 100%;
   box-sizing: border-box;
@@ -24,6 +25,13 @@ body{
 
 }
 
+#body{
+  width: 85%;
+  color: black;
+  margin: 0% 7.5% 0% 7.5%;
+}
+
+
 /* styling particle.js element */
 #particles-js{
   position: fixed;
@@ -32,12 +40,6 @@ body{
   height: 100%;
   width: 100%;
   z-index: -100;
-}
-
-#body{
-  width: 85%;
-  color: black;
-  margin: 0% 7.5% 0% 7.5%;
 }
 
 /*Styling Header*/
@@ -133,6 +135,7 @@ li>a:active{
   z-index: 10;
 }
 
+/* Styling icons and map */
 #list{
   list-style: none;
   text-align: center;
@@ -199,15 +202,13 @@ hr{
   right: 0;
   bottom: 0;
   height: 6.5%;
-
-
 }
 
 #footertext{
   padding-right: 10px;
 }
 
-/* Responsive layout - make it look good on mobile */
+/* Responsive layout - make it look good on tablet/mobile */
 
 @media screen and (max-width: 634px) {
 

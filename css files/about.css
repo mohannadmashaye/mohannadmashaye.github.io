@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
+/* Styling whole about page */
 html{
   height: 100%;
   box-sizing: border-box;
@@ -175,7 +176,7 @@ li>a:active{
   padding-right: 10px;
 }
 
-/* Responsive layout - make it look good on mobile */
+/* Responsive layout - make it look good on mobile/tablet */
 
 @media screen and (max-width: 634px) {
 

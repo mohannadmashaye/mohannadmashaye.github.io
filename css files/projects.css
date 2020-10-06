@@ -226,9 +226,8 @@ li.purple-bullets::before {
   padding-right: 10px;
 }
 
-/* Responsive layout - make it look good on mobile */
 
-/* Responsive layout - make it look good on mobile */
+/* Responsive layout - make it look good on mobile/tablet */
 
 @media screen and (max-width: 634px) {
 
